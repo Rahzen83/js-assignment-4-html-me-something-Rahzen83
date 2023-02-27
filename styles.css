@@ -1,3 +1,33 @@
-#opening {
-   color: red;
+
+
+#blue {
+    font-size:75px;
+    font-family: "Brush Script MT", cursive;
+    background-color: rgb(17, 133, 92);
+    color: gold;
+    text-align: center; 
+    border-style: solid;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-image: url(https://assets.wallpapersin4k.org/uploads/2017/04/Red-Victorian-Wallpaper-6.jpg)
+}
+
+p { font-size: 30px;
+    background-color:rgb(17, 133, 92);
+    font-family: "Brush Script MT", cursive;
+}
+
+ol {
+    list-style-type: lower-roman;
+    font-size: 30px;
+    font-family: "Brush Script MT", cursive;
+    background-color:rgb(17, 133, 92);
 }
