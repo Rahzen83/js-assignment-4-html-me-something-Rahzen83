@@ -1,10 +1,10 @@
 
 
-#blue {
+#mainHeading {
+    background-color: black;
     font-size:75px;
-    font-family: "Brush Script MT", cursive;
-    background-color: rgb(17, 133, 92);
-    color: gold;
+    font-family: "Papyrus", fantasy;
+    color: red;
     text-align: center; 
     border-style: solid;
 }
@@ -17,17 +17,39 @@
 }
 
 body {
+    background-attachment: fixed;
     background-image: url(https://assets.wallpapersin4k.org/uploads/2017/04/Red-Victorian-Wallpaper-6.jpg)
 }
 
-p { font-size: 30px;
+.funParagraph {
+    
+    font-size: 30px;
     background-color:rgb(17, 133, 92);
-    font-family: "Brush Script MT", cursive;
+    font-family: "Papyrus", fantasy;
+    text-align: center;
 }
 
 ol {
     list-style-type: lower-roman;
     font-size: 30px;
-    font-family: "Brush Script MT", cursive;
+    font-family: "Papyrus", fantasy;
     background-color:rgb(17, 133, 92);
+}
+#bold {
+    text-decoration-line: underline;
+}
+body {
+    margin: 8px;
+    display: block;
+}
+h2 {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 50%;
+    display: inline;
+  
+}
+#image1 {
+    margin-bottom: 30px
 }
